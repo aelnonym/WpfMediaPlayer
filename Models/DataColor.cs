@@ -1,6 +1,6 @@
 ﻿using System.Windows.Media;
 
-namespace ExtecampWpfMediaPlayer.Models
+namespace WpfMediaPlayer.Models
 {
     public struct DataColor
     {

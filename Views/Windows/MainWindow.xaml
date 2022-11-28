@@ -1,11 +1,11 @@
 ﻿<ui:UiWindow
-    x:Class="ExtecampWpfMediaPlayer.Views.Windows.MainWindow"
+    x:Class="WpfMediaPlayer.Views.Windows.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:ExtecampWpfMediaPlayer.Views.Windows"
+    xmlns:local="clr-namespace:WpfMediaPlayer.Views.Windows"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:pages="clr-namespace:ExtecampWpfMediaPlayer.Views.Pages"
+    xmlns:pages="clr-namespace:WpfMediaPlayer.Views.Pages"
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
     Title="{Binding ViewModel.ApplicationTitle, Mode=OneWay}"
     Width="1100"
@@ -42,7 +42,7 @@
                 </Grid.RowDefinitions>
 
                 <StackPanel Grid.Row="0" Margin="0,12">
-                    <TextBlock FontSize="16" Text="WPF UI - ExtecampWpfMediaPlayer" />
+                    <TextBlock FontSize="16" Text="WPF UI - WpfMediaPlayer" />
                     <TextBlock
                         FontSize="10"
                         Foreground="{DynamicResource TextFillColorTertiaryBrush}"
@@ -95,7 +95,7 @@
                     FocusOnLeftClick="True"
                     Icon="pack://application:,,,/Assets/applicationIcon-256.png"
                     MenuOnRightClick="True"
-                    TooltipText="ExtecampWpfMediaPlayer">
+                    TooltipText="WpfMediaPlayer">
                     <ui:NotifyIcon.Menu>
                         <ContextMenu>
                             <MenuItem Header="Home" Tag="home" />

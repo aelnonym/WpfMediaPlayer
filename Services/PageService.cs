@@ -2,7 +2,7 @@
 using System.Windows;
 using Wpf.Ui.Mvvm.Contracts;
 
-namespace ExtecampWpfMediaPlayer.Services
+namespace WpfMediaPlayer.Services
 {
     /// <summary>
     /// Service that provides pages for navigation.

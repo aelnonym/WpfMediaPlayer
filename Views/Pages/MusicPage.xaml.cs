@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Wpf.Ui.Common.Interfaces;
 
-namespace ExtecampWpfMediaPlayer.Views.Pages
+namespace WpfMediaPlayer.Views.Pages
 {
     public partial class MusicPage : INavigableView<ViewModels.MusicViewModel>
     {

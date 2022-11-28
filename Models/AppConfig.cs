@@ -1,4 +1,4 @@
-﻿namespace ExtecampWpfMediaPlayer.Models
+﻿namespace WpfMediaPlayer.Models
 {
     public class AppConfig
     {

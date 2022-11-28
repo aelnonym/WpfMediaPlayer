@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using Wpf.Ui.Mvvm.Contracts;
 
-namespace ExtecampWpfMediaPlayer.Services
+namespace WpfMediaPlayer.Services
 {
     /// <summary>
     /// Managed host of the application.

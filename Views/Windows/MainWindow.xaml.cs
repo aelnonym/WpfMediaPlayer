@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using Wpf.Ui.Controls.Interfaces;
 using Wpf.Ui.Mvvm.Contracts;
 
-namespace ExtecampWpfMediaPlayer.Views.Windows
+namespace WpfMediaPlayer.Views.Windows
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

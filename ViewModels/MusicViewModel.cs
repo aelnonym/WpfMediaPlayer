@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using Wpf.Ui.Common.Interfaces;
 
-namespace ExtecampWpfMediaPlayer.ViewModels
+namespace WpfMediaPlayer.ViewModels
 {
     public partial class MusicViewModel : ObservableObject, INavigationAware
     {

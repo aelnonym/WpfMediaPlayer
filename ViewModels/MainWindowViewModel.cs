@@ -6,7 +6,7 @@ using Wpf.Ui.Controls;
 using Wpf.Ui.Controls.Interfaces;
 using Wpf.Ui.Mvvm.Contracts;
 
-namespace ExtecampWpfMediaPlayer.ViewModels
+namespace WpfMediaPlayer.ViewModels
 {
     public partial class MainWindowViewModel : ObservableObject
     {

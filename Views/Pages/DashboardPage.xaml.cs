@@ -1,6 +1,6 @@
 ﻿using Wpf.Ui.Common.Interfaces;
 
-namespace ExtecampWpfMediaPlayer.Views.Pages
+namespace WpfMediaPlayer.Views.Pages
 {
     /// <summary>
     /// Interaction logic for DashboardPage.xaml

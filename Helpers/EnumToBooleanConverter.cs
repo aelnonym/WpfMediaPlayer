@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace ExtecampWpfMediaPlayer.Helpers
+namespace WpfMediaPlayer.Helpers
 {
     internal class EnumToBooleanConverter : IValueConverter
     {

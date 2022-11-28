@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using ExtecampWpfMediaPlayer.Models;
+using WpfMediaPlayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Windows.Media;
 using Wpf.Ui.Common.Interfaces;
 
-namespace ExtecampWpfMediaPlayer.ViewModels
+namespace WpfMediaPlayer.ViewModels
 {
     public partial class DataViewModel : ObservableObject, INavigationAware
     {

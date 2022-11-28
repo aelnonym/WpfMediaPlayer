@@ -1,5 +1,5 @@
-﻿using ExtecampWpfMediaPlayer.Models;
-using ExtecampWpfMediaPlayer.Services;
+﻿using WpfMediaPlayer.Models;
+using WpfMediaPlayer.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,7 +10,7 @@ using System.Windows.Threading;
 using Wpf.Ui.Mvvm.Contracts;
 using Wpf.Ui.Mvvm.Services;
 
-namespace ExtecampWpfMediaPlayer
+namespace WpfMediaPlayer
 {
     /// <summary>
     /// Interaction logic for App.xaml

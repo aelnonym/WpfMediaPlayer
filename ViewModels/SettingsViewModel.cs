@@ -4,7 +4,7 @@ using System;
 using System.Windows.Input;
 using Wpf.Ui.Common.Interfaces;
 
-namespace ExtecampWpfMediaPlayer.ViewModels
+namespace WpfMediaPlayer.ViewModels
 {
     public partial class SettingsViewModel : ObservableObject, INavigationAware
     {
@@ -29,7 +29,7 @@ namespace ExtecampWpfMediaPlayer.ViewModels
         private void InitializeViewModel()
         {
             CurrentTheme = Wpf.Ui.Appearance.Theme.GetAppTheme();
-            AppVersion = $"ExtecampWpfMediaPlayer - {GetAssemblyVersion()}";
+            AppVersion = $"WpfMediaPlayer - {GetAssemblyVersion()}";
 
             _isInitialized = true;
         }
